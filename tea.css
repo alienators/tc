@@ -1,0 +1,139 @@
+html{
+  background-color: black;
+  opacity: .9;
+  font-family: helvetica;
+  font-size: 22px;
+  color: seashell;
+}
+.nav {
+  display: flex;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 69px;
+  padding-left: 10px;
+  border-bottom: 1px solid seashell;
+  align-items: center;
+  z-index: 1000;
+}
+.n {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  padding-right: 40px;
+}
+.nav img{
+  height: 50px;
+}
+.nav li{
+  display: inline-flex;
+  color: white;
+  text-decoration: underline;
+  list-style: none;
+  margin-left: 40px;
+}
+.b {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  height: 700px;
+}
+.bb{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: black;
+  width: 1200px;
+  z-index: 100;
+}
+.bb h2, .bb h4{
+line-height: 0;
+}
+.b img{
+  height: 700px;
+  width: 1200px;
+  position: absolute;
+  z=index: -1000;
+}
+.c{
+  text-align: center;
+  margin-top: 50px;
+}
+.tea{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  width: 1200px;
+  margin: 0 auto;
+}
+.t{
+  text-align: center;
+  line-height: 0;
+  margin: 0 30px;
+}
+.t img{
+height: 200px;
+width: 300px;
+}
+#t{
+  display: flex;
+  position: absolute;
+  left: 0;
+  justify-content: center;
+  width: 100%;
+  margin-top: 150px;
+}
+.loc{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 1200px;
+  margin: 200px auto;
+}
+.l {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  line-height: 10px;
+  margin: 0 30px 230px 30px;
+  background-color: black;
+  width: 300px;
+  height: 300px;
+}
+.ll {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  line-height: 10px;
+  position: relative;
+  bottom: 250px;
+  background-color: black;
+  width: 100%;
+}
+.loc img{
+  position: absolute;
+  z-index: -100;
+  width: 1200px;
+}
+.con{
+  height: 675px;
+}
+#m{
+  position: absolute;
+  top: 0;
+}
+#tea{
+  position: absolute;
+  top: 750px;
+}
+a {
+  color: seashell;
+}
